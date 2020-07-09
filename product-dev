@@ -1,0 +1,6 @@
+server:
+  port: 10010
+logging:
+  level:
+    root: INFO
+    top.asia.product.mapper: TRACE
