@@ -8,3 +8,6 @@ logging:
   level:
     root: INFO
     top.asia.order.mapper: TRACE
+girl:
+  name: lili
+  age: 160
