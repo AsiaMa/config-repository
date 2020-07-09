@@ -9,6 +9,9 @@ spring:
     port: 5672
     username: test
     password: test
+  bus:
+      trace:
+        enabled: true
 eureka:
   client:
     service-url:
