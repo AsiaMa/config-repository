@@ -22,5 +22,4 @@ mybatis:
   mapper-locations: classpath*:/mapper/*.xml
 MYPRODUCT10010:
   ribbon:
-#    NIWSServerListClassName: com.netflix.loadbalancer.ConfigurationBasedServerList
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
