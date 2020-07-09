@@ -1,0 +1,10 @@
+server:
+  port: 12315
+env: 
+  dev
+label:
+  release
+logging:
+  level:
+    root: INFO
+    top.asia.order.mapper: TRACE
