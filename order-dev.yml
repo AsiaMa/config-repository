@@ -23,6 +23,11 @@ spring:
     virtual-host: /
     username: test
     password: test
+  cloud:
+    bus:
+      enabled: true
+      refresh:
+        enabled: true
 eureka:
   client:
     service-url:
