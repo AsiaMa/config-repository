@@ -10,4 +10,7 @@ logging:
     top.asia.order.mapper: TRACE
 girl:
   name: zhouzhou
-  age: 1200
+  age: 1300
+spring:
+  application:
+    name: ordertest
