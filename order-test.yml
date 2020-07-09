@@ -10,7 +10,7 @@ logging:
     top.asia.order.mapper: TRACE
 girl:
   name: lili
-  age: 17
+  age: 19
 management:
   endpoint:
     shutdown:
