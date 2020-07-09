@@ -11,6 +11,3 @@ logging:
 girl:
   name: zhouzhou
   age: 1300
-spring:
-  application:
-    name: ordertest
