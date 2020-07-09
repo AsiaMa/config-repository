@@ -9,5 +9,5 @@ logging:
     root: INFO
     top.asia.order.mapper: TRACE
 girl:
-  name: xiuxiu
-  age: 1000
+  name: zhouzhou
+  age: 1200
