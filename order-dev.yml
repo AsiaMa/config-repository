@@ -1,0 +1,13 @@
+server:
+  port: 12316
+env: 
+  dev
+label:
+  release
+logging:
+  level:
+    root: INFO
+    top.asia.order.mapper: TRACE
+girl:
+  name: zhouzhou
+  age: 15
