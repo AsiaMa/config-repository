@@ -24,4 +24,3 @@ MYPRODUCT10010:
   ribbon:
 #    NIWSServerListClassName: com.netflix.loadbalancer.ConfigurationBasedServerList
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
-评论 ( 0 )
