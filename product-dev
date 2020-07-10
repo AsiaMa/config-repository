@@ -4,3 +4,6 @@ logging:
   level:
     root: INFO
     top.asia.product.mapper: TRACE
+boy:
+  name: mayazhou
+  age: 27
