@@ -4,6 +4,30 @@ env:
   dev
 label:
   release
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/SpringCloud_sell?useSSL=false&characterEncoding=utf8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Azjx0813!
+  rabbitmq:
+    host: 192.168.2.244
+    port: 5672
+    virtual-host: /
+    username: test
+    password: test
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.2.110:8762/eureka/, http://192.168.2.244:8763/eureka/, http://192.168.2.161:8764/eureka
+    fetch-registry: true
+    register-with-eureka: true
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath*:/mapper/*.xml
+as:
+  ma
 logging:
   level:
     root: INFO
@@ -11,11 +35,3 @@ logging:
 girl:
   name: lili
   age: 19
-management:
-  endpoint:
-    shutdown:
-      enabled: false
-  endpoints:
-    web:
-      exposure:
-        include: "*"
