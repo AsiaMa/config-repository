@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/SpringCloud_sell?useSSL=false&characterEncoding=utf8
+    url: jdbc:mysql://localhost:3306/SpringCloud_sell?characterEncoding=utf8
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: Azjx0813!
