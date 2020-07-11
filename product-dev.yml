@@ -4,6 +4,9 @@ logging:
   level:
     root: INFO
     top.asia.product.mapper: TRACE
+    org.springframework.amqp: DEBUG
+    org.springframework.amqp.rabbit: DEBUG
+    org.springframework.cloud.bus: DEBUG
 boy:
   name: mayazhou
   age: 20
