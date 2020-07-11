@@ -8,6 +8,9 @@ logging:
   level:
     root: INFO
     top.asia.order.mapper: TRACE
+    org.springframework.amqp: DEBUG
+    org.springframework.amqp.rabbit: DEBUG
+    org.springframework.cloud.bus: DEBUG
 girl:
   name: zhouzhou
   age: 26
