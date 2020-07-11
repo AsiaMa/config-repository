@@ -9,4 +9,4 @@ logging:
     org.springframework.cloud.bus: DEBUG
 boy:
   name: mayazhou
-  age: 20
+  age: 21
