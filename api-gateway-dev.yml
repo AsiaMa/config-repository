@@ -17,3 +17,5 @@ zuul:
 #       serviceId: product
 #     简洁写法
     product: /myProduct/**
+  ignored-patterns:
+    - /myProduct/product/listForOrder
