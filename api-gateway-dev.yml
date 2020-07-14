@@ -8,3 +8,8 @@ logging:
     org.springframework.amqp: DEBUG
     org.springframework.amqp.rabbit: DEBUG
     org.springframework.cloud.bus: DEBUG
+zuul:
+  routes:
+    myProduct:
+      path: /myProduct/**
+      serviceId: product
