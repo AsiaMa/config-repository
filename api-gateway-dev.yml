@@ -18,4 +18,4 @@ zuul:
 #     简洁写法
     product: /myProduct/**
   ignored-patterns:
-    - /**/product/listForOrder
+    - /myProduct/product/listForOrder
