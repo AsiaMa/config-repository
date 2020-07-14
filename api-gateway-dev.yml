@@ -14,6 +14,6 @@ zuul:
 #       path: /myProduct/**
 #       serviceId: product
 #     简洁写法
-    procuct: /myProduct/**
+    product: /myProduct/**
 server:
   port: 12000
