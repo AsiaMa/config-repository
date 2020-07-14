@@ -13,4 +13,4 @@ logging:
     org.springframework.cloud.bus: DEBUG
 girl:
   name: zhouzhou
-  age: 26
+  age: 23
