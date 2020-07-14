@@ -1,3 +1,5 @@
+server:
+  port: 13120
 girl:
   age: 26
   name: mayz
@@ -15,5 +17,3 @@ zuul:
 #       serviceId: product
 #     简洁写法
     product: /myProduct/**
-server:
-  port: 13000
