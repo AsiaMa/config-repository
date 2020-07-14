@@ -16,4 +16,4 @@ zuul:
 #     简洁写法
     product: /myProduct/**
 server:
-  port: 12000
+  port: 13000
