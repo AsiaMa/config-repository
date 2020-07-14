@@ -1,3 +1,10 @@
 girl:
   age: 21
   name: mayz
+logging:
+  level:
+    root: INFO
+    top.asia.order.mapper: TRACE
+    org.springframework.amqp: DEBUG
+    org.springframework.amqp.rabbit: DEBUG
+    org.springframework.cloud.bus: DEBUG
